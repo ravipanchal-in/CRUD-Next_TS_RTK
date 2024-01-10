@@ -1,7 +1,7 @@
 import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useSelector, useDispatch } from "react-redux";
 import appSlice from "../slices/appSlice";
-import userDetailsSlice from "../slices/userDetailsSlice";
+import userDetailsSlice from "../slices/userCrudSlice";
 
 const appStore = configureStore({
   reducer: {

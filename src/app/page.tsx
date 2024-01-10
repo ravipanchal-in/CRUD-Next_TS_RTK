@@ -1,12 +1,12 @@
 "use client";
-import Form from "@/components/form/Form";
+import Create from "./create/page";
 
 function Main() {
   return false ? (
     <div>Loading... Please Wait!</div>
   ) : (
     <div>
-      <Form />
+      <Create />
     </div>
   );
 }
